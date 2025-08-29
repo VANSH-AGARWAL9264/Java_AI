@@ -20,10 +20,10 @@ public class Student {
 		this.RollNo = 0;
 		this.Age = 0;
 	}
-//	
-//	public void studying (int No_of_hours) {
-//		System.out.println("The student" + name + "is studying for" + No_of_hours);
-//	}
+	
+	public void studying (int No_of_hours) {
+		System.out.println("The student" + name + "is studying for" + No_of_hours);
+	}
 	
 	public void readAndwrite() {
 		System.out.println("The student can read and write");
